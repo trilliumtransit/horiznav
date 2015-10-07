@@ -1,0 +1,21 @@
+ul.horiznav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.horiznav li {
+  float: left;
+  display: inline-block;
+}
+ul.horiznav .extra-dropdown {
+  position: relative;
+}
+ul.horiznav .extra-dropdown ul {
+  position: absolute;
+  top: -999999;
+}
+ul.horiznav .extra-dropdown:hover ul {
+  display: block;
+  top: 0;
+  right: 0;
+}

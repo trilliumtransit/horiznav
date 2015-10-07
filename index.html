@@ -1,0 +1,56 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/horiznav.css">
+	<style>
+		#container {
+			background: grey;
+			width: 70%;
+			float: left;
+		}	
+		
+		.my-horiznav {
+			width: 100%;	
+		}
+		
+		.my-horiznav a:link {
+			padding: 10px;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="horiznav.js"></script>
+	<script>
+		$( document ).ready(function(){
+			$('.my-horiznav').horiznav();
+		});
+		$( window ).resize(function(){
+			$('.my-horiznav').horiznav();
+		});
+	</script>
+</head>
+<div id="container" >
+	<ul class="my-horiznav">
+		<li>
+			<a href="#">Hello</a>
+		</li>
+		<li>
+			<a href="#">Goodday</a>
+		</li>
+		<li>
+			<a href="#">Mate</a>
+		</li>
+		<li>
+			<a href="#">Youse & Huus</a>
+		</li>
+		<li>
+			<a href="#">FLOWERpowder yon</a>
+		</li>
+		<li>
+			<a href="#">Sup tip	</a>
+		</li>
+		<li>
+			<a href="#">Gill hoon</a>
+		</li>
+	</ul>
+</div>
+</html>
